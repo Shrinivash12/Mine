@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin:0;
+            padding:0;
+            line-height:1.6;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color: #2e8b57;
+            color:#fff;
+            padding:20px 0;
+            text-align: center;
+        }
+        nav{
+            background-color: #333;
+            color:#fff;
+            padding:10px;
+            text-align: center;
+        }
+        nav a{
+            color:#fff;
+            margin:0 15px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        section{
+            padding:20px;
+            max-width: 900px;
+            margin:auto;
+            background: #fff; 
+            margin-top:20px;
+       }
+       footer{
+        background: #2e8b57;
+        color:white;
+        text-align: center;
+        padding:10px;
+        margin-top: 20px;
+       }
+       .contact-form input,.contact-form textarea{
+        width: 100%;
+        padding: 10px;
+        margin:10px 0;
+       }
 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mine School</h1>
+        <p>Inspiring Excellence and Integrity</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Courses</a>
+        <a href="#">Admissions</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Mine School is dedicated to providing high-quality education to students from kindergarden to Grade 12.Our mission is to foster academic excellence and holistic development in a nuturing environment.</p>
+    </section>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Mathematics</li>
+            <li>English</li>
+            <li>Science</li>
+            <li>History</li>
+            <li>Physical Education</li>
+            <li>Arts and Music</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </section>
+    <footer>
+        <p>&copy;2025 Green Valley School.All rights reserved.</p>
+    </footer>
+</body>
+</html>
